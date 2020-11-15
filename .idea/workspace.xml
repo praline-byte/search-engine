@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1a7fad7a-3037-4c7c-ad5b-87aa219e2d3e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ch1/search_engine_v1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch1/search_engine_v1_test.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.14.4/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kJzEtIOFlzbieKLfbeybgvUQhe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ch1" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ch1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Test.TestSearchEngineV1 in search_engine_v1_test.go">
+    <configuration name="TestName in search_engine_v1_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="search-engine" />
+      <working_directory value="$PROJECT_DIR$/ch1" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/ch1/search_engine_v1_test.go" />
+      <pattern value="^\QTestName\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestSearchEngineV1 in search-engine" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="search-engine" />
+      <working_directory value="$PROJECT_DIR$/ch1" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/ch1/search_engine_v1_test.go" />
+      <pattern value="^\QTestSearchEngineV1\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestSearchEngineV1 in search_engine_v1_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="search-engine" />
+      <working_directory value="$PROJECT_DIR$/ch1" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/ch1/search_engine_v1_test.go" />
+      <pattern value="^\QTestSearchEngineV1\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestSearchEngineV1 in " type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="search-engine" />
+      <working_directory value="$PROJECT_DIR$/ch1" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/ch1/search_engine_v1_test.go" />
+      <pattern value="^\QTestSearchEngineV1\E$" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Test.TestName in search_engine_v1_test.go" />
+      <item itemvalue="Go Test.TestSearchEngineV1 in " />
+      <item itemvalue="Go Test.TestSearchEngineV1 in search-engine" />
+      <item itemvalue="Go Test.TestSearchEngineV1 in search_engine_v1_test.go" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestSearchEngineV1 in search_engine_v1_test.go" />
+        <item itemvalue="Go Test.TestSearchEngineV1 in search-engine" />
+        <item itemvalue="Go Test.TestSearchEngineV1 in " />
+        <item itemvalue="Go Test.TestName in search_engine_v1_test.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="360" y="222" width="1071" height="772" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605433886614">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="360" y="222" width="1071" height="772" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1605433886614" />
+    <state width="1750" height="310" key="GridCell.Tab.0.bottom" timestamp="1605443979649">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="310" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1605443979649" />
+    <state width="1750" height="310" key="GridCell.Tab.0.center" timestamp="1605443979648">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="310" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1605443979648" />
+    <state width="1750" height="310" key="GridCell.Tab.0.left" timestamp="1605443979647">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="310" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1605443979647" />
+    <state width="1750" height="310" key="GridCell.Tab.0.right" timestamp="1605443979648">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="310" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1605443979648" />
+    <state x="397" y="199" key="SettingsEditor" timestamp="1605443627097">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1605443627097" />
+  </component>
+</project>
