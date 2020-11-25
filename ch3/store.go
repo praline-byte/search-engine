@@ -56,9 +56,6 @@ func New(config map[string]interface{}) (*Store, error) {
 	return &rv, nil
 }
 
-// boltDB 规定只读事务结束时，必须要调用 Rollback，以此来释放脏页，保证事务的隔离性
-// 关于事务这里可以先简单理解为"一件有头有尾的完整的事情"，我们会在之后更详细的了解事务，事务的特性，事务的隔离级别和不同级别的实现标准等等。
-
 // 根据 key 获取 b+树中的 val
 func (bs *Store) Get(key []byte) ([]byte, error) {
 
@@ -143,15 +140,6 @@ func (bs *Store) PrefixGet(prefix []byte) ([][]byte, error) {
 	return vals, nil
 }
 
-// db 只有一个实例，只加载一次
-// reader 和 writer 每次都要开启事务，可以拆分，按需加载
-
-// 存在两个问题
-// 1. 存在大量重复代码，Get(), MultiGet(), PrefixSearch(), RangeSearch() 都存在重复的`开启只读事务`,`调用 db 原生方法获取数据`,`将结果数据返回`，
-// `关闭只读事务`，当重复代码出现我们就要嗅到改造它的时机到了（当然要考虑业务阶段，改造成本，团队规范和心情）
-// 2. 如果我们业务升级，当前的 db 引擎不再满足需求时（别忘了 boltDb 的主要特点就是简单，易用，可靠，读场景多于写场景），改用这些底层 API 意味着大量的调用方改动成本
-// 也随之暴涨。
-// 如何隔离复杂，解耦依赖，拥抱变化？
 
 
 

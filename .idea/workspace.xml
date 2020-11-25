@@ -20,10 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a7fad7a-3037-4c7c-ad5b-87aa219e2d3e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ch3/store.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch3/store_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch3/store.go" beforeDir="false" afterPath="$PROJECT_DIR$/ch3/store.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,25 +146,25 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="360" y="222" width="1071" height="772" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1605433886614" />
-    <state width="1878" height="174" key="GridCell.Tab.0.bottom" timestamp="1606096794859">
+    <state width="1878" height="296" key="GridCell.Tab.0.bottom" timestamp="1606313058144">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="174" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.0.1792.1120@-1920.0.1920.1080" timestamp="1606096794859" />
+    <state width="1878" height="296" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.0.1792.1120@-1920.0.1920.1080" timestamp="1606313058144" />
     <state width="1750" height="310" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1605444128248" />
-    <state width="1878" height="174" key="GridCell.Tab.0.center" timestamp="1606096794857">
+    <state width="1878" height="296" key="GridCell.Tab.0.center" timestamp="1606313058142">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="174" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.0.1792.1120@-1920.0.1920.1080" timestamp="1606096794857" />
+    <state width="1878" height="296" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.0.1792.1120@-1920.0.1920.1080" timestamp="1606313058142" />
     <state width="1750" height="310" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1605444128246" />
-    <state width="1878" height="174" key="GridCell.Tab.0.left" timestamp="1606096794855">
+    <state width="1878" height="296" key="GridCell.Tab.0.left" timestamp="1606313058140">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="174" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.0.1792.1120@-1920.0.1920.1080" timestamp="1606096794855" />
+    <state width="1878" height="296" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.0.1792.1120@-1920.0.1920.1080" timestamp="1606313058140" />
     <state width="1750" height="310" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1605444128245" />
-    <state width="1878" height="174" key="GridCell.Tab.0.right" timestamp="1606096794858">
+    <state width="1878" height="296" key="GridCell.Tab.0.right" timestamp="1606313058143">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="174" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.1792.1120@-1920.0.1920.1080" timestamp="1606096794858" />
+    <state width="1878" height="296" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.1792.1120@-1920.0.1920.1080" timestamp="1606313058143" />
     <state width="1750" height="310" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1605444128247" />
     <state width="1878" height="174" key="GridCell.Tab.1.bottom" timestamp="1606096794864">
       <screen x="-1920" y="0" width="1920" height="1080" />
@@ -194,7 +192,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/ch3/store.go</url>
-          <line>101</line>
+          <line>98</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
