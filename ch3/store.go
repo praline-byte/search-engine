@@ -79,7 +79,7 @@ func (bs *Store) Get(key []byte) ([]byte, error) {
 // 将 key-val 数据插入到 b+树中
 func (bs *Store) Put(key, val []byte) (err error) {
 
-	// 开启一个只读事务，这个事务将会修改数据，指定 writable 为 true
+	// 开启一个写事务，这个事务将会修改数据，指定 writable 为 true
 	tx, err := bs.db.Begin(true)
 
 	if err != nil {
