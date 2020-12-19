@@ -20,8 +20,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a7fad7a-3037-4c7c-ad5b-87aa219e2d3e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/chapter5/ngram.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter5/ngram_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter6/analysis/analyze.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter6/analysis/analyzer/simple.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter6/analysis/rune_util.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter6/analysis/token/ngram.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter6/analysis/tokenizer/single.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter6/search.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter6/search_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter6/store/boltdb/iterator.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter6/store/boltdb/reader.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter6/store/boltdb/store.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter6/store/boltdb/writer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter6/store/kvstore.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/store.go" beforeDir="false" afterPath="$PROJECT_DIR$/ch3/store.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch1/search_engine_v1.go" beforeDir="false" afterPath="$PROJECT_DIR$/chapter1/search_engine_v1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch1/search_engine_v1_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/chapter1/search_engine_v1_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch3/store.go" beforeDir="false" afterPath="$PROJECT_DIR$/chapter3/store.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch3/store_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/chapter3/store_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch3/tmp_db" beforeDir="false" afterPath="$PROJECT_DIR$/chapter3/tmp_db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch4/search.go" beforeDir="false" afterPath="$PROJECT_DIR$/chapter4/search.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch4/search_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/chapter4/search_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch4/store/boltdb/iterator.go" beforeDir="false" afterPath="$PROJECT_DIR$/chapter4/store/boltdb/iterator.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch4/store/boltdb/reader.go" beforeDir="false" afterPath="$PROJECT_DIR$/chapter4/store/boltdb/reader.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch4/store/boltdb/store.go" beforeDir="false" afterPath="$PROJECT_DIR$/chapter4/store/boltdb/store.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch4/store/boltdb/writer.go" beforeDir="false" afterPath="$PROJECT_DIR$/chapter4/store/boltdb/writer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch4/store/kvstore.go" beforeDir="false" afterPath="$PROJECT_DIR$/chapter4/store/kvstore.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,23 +71,48 @@
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/ch1" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ch3" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/ch5" />
+      <recent name="$PROJECT_DIR$/ch4" />
+      <recent name="$PROJECT_DIR$/ch1" />
+    </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestSearch1 in search-engine/ch3">
-    <configuration name="TestName in search_engine_v1_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestSearch in search-engine/chapter6">
+    <configuration name="TestBuildNGram in search-engine/ch5" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="search-engine" />
-      <working_directory value="$PROJECT_DIR$/ch1" />
+      <working_directory value="$PROJECT_DIR$/ch5" />
       <framework value="gotest" />
-      <kind value="FILE" />
+      <kind value="PACKAGE" />
+      <package value="search-engine/ch5" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/ch1/search_engine_v1_test.go" />
-      <pattern value="^\QTestName\E$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestBuildNGram\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestSearch in search-engine/ch4" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="search-engine" />
+      <working_directory value="$PROJECT_DIR$/ch4" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="search-engine/ch4" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestSearch\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestSearch in search-engine/chapter6" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="search-engine" />
+      <working_directory value="$PROJECT_DIR$/chapter6" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="search-engine/chapter6" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestSearch\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestSearch1 in search-engine/ch3" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -76,16 +126,6 @@
       <pattern value="^\QTestSearch1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSearchEngineV1 in search-engine" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="search-engine" />
-      <working_directory value="$PROJECT_DIR$/ch1" />
-      <framework value="gotest" />
-      <kind value="DIRECTORY" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/ch1/search_engine_v1_test.go" />
-      <pattern value="^\QTestSearchEngineV1\E$" />
-      <method v="2" />
-    </configuration>
     <configuration name="TestSearchEngineV1 in search_engine_v1_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="search-engine" />
       <working_directory value="$PROJECT_DIR$/ch1" />
@@ -96,30 +136,20 @@
       <pattern value="^\QTestSearchEngineV1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSearchEngineV1 in " type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="search-engine" />
-      <working_directory value="$PROJECT_DIR$/ch1" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/ch1/search_engine_v1_test.go" />
-      <pattern value="^\QTestSearchEngineV1\E$" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Go Test.TestName in search_engine_v1_test.go" />
-      <item itemvalue="Go Test.TestSearchEngineV1 in " />
-      <item itemvalue="Go Test.TestSearchEngineV1 in search-engine" />
       <item itemvalue="Go Test.TestSearchEngineV1 in search_engine_v1_test.go" />
       <item itemvalue="Go Test.TestSearch1 in search-engine/ch3" />
+      <item itemvalue="Go Test.TestSearch in search-engine/ch4" />
+      <item itemvalue="Go Test.TestBuildNGram in search-engine/ch5" />
+      <item itemvalue="Go Test.TestSearch in search-engine/chapter6" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestSearch in search-engine/chapter6" />
+        <item itemvalue="Go Test.TestBuildNGram in search-engine/ch5" />
+        <item itemvalue="Go Test.TestSearch in search-engine/ch4" />
         <item itemvalue="Go Test.TestSearch1 in search-engine/ch3" />
         <item itemvalue="Go Test.TestSearchEngineV1 in search_engine_v1_test.go" />
-        <item itemvalue="Go Test.TestSearchEngineV1 in search-engine" />
-        <item itemvalue="Go Test.TestSearchEngineV1 in " />
-        <item itemvalue="Go Test.TestName in search_engine_v1_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -147,30 +177,30 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="360" y="222" width="1071" height="772" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1605433886614" />
-    <state width="1750" height="309" key="GridCell.Tab.0.bottom" timestamp="1606314092242">
+    <state width="1750" height="329" key="GridCell.Tab.0.bottom" timestamp="1608350519914">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1878" height="296" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.0.1792.1120@-1920.0.1920.1080" timestamp="1606313058144" />
-    <state width="1750" height="309" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1606314092242" />
-    <state width="1750" height="310" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1605444128248" />
-    <state width="1750" height="309" key="GridCell.Tab.0.center" timestamp="1606314092239">
+    <state width="1878" height="323" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.0.1792.1120@-1920.0.1920.1080" timestamp="1607154537415" />
+    <state width="1750" height="329" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1608350519914" />
+    <state width="1750" height="337" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1607178669425" />
+    <state width="1750" height="329" key="GridCell.Tab.0.center" timestamp="1608350519912">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1878" height="296" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.0.1792.1120@-1920.0.1920.1080" timestamp="1606313058142" />
-    <state width="1750" height="309" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1606314092239" />
-    <state width="1750" height="310" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1605444128246" />
-    <state width="1750" height="309" key="GridCell.Tab.0.left" timestamp="1606314092238">
+    <state width="1878" height="323" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.0.1792.1120@-1920.0.1920.1080" timestamp="1607154537413" />
+    <state width="1750" height="329" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1608350519912" />
+    <state width="1750" height="337" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1607178669424" />
+    <state width="1750" height="329" key="GridCell.Tab.0.left" timestamp="1608350519912">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1878" height="296" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.0.1792.1120@-1920.0.1920.1080" timestamp="1606313058140" />
-    <state width="1750" height="309" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1606314092238" />
-    <state width="1750" height="310" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1605444128245" />
-    <state width="1750" height="309" key="GridCell.Tab.0.right" timestamp="1606314092241">
+    <state width="1878" height="323" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.0.1792.1120@-1920.0.1920.1080" timestamp="1607154537412" />
+    <state width="1750" height="329" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1608350519912" />
+    <state width="1750" height="337" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1607178669423" />
+    <state width="1750" height="329" key="GridCell.Tab.0.right" timestamp="1608350519913">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1878" height="296" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.1792.1120@-1920.0.1920.1080" timestamp="1606313058143" />
-    <state width="1750" height="309" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1606314092241" />
-    <state width="1750" height="310" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1605444128247" />
+    <state width="1878" height="323" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.1792.1120@-1920.0.1920.1080" timestamp="1607154537414" />
+    <state width="1750" height="329" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1608350519913" />
+    <state width="1750" height="337" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1607178669424" />
     <state width="1878" height="174" key="GridCell.Tab.1.bottom" timestamp="1606096794864">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
@@ -191,5 +221,10 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1605443627097" />
+    <state x="614" y="306" width="568" height="548" key="find.popup" timestamp="1608350478749">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="-1262" y="295" width="604" height="490" key="find.popup/-1920.0.1920.1080/0.0.1792.1120@-1920.0.1920.1080" timestamp="1607154474208" />
+    <state x="614" y="306" width="568" height="548" key="find.popup/-1920.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1608350478749" />
   </component>
 </project>

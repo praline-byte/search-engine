@@ -1,4 +1,4 @@
-package ch4
+package chapter4
 
 import (
 	"search-engine/ch4/store"

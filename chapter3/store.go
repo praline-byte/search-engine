@@ -1,4 +1,4 @@
-package ch3
+package chapter3
 
 import (
 	"bytes"

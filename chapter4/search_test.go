@@ -1,5 +1,5 @@
 // @Description  
-package ch4
+package chapter4
 
 import "testing"
 
