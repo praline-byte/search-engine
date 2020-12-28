@@ -11,7 +11,7 @@ func SimpleAnalyzer() (*analysis.Analyzer, error) {
 	analyzer := &analysis.Analyzer{
 		Tokenizer: tokenizer.NewSingleTokenTokenizer(),
 		TokenFilters: []analysis.TokenFilter{
-			token.NewNgramFilter(1, 2),
+			token_filter.NewNgramFilter(1, 2),
 		},
 	}
 	return analyzer, nil
